@@ -1,3 +1,136 @@
 body{
-background-color: hsla(218, 25%, 50%, 0.78);
+background-color: hsla(34, 40%, 14%, 0.65);
+font-family: 'Montserrat', sans-serif;
+color: #5A3125;
 }
+
+#page{
+	background-color: hsla(209, 63%, 56%, 0.78);
+    height: auto;
+    width: 1000px;
+    border: 5px solid #B0C359;
+    padding: 20px;
+    margin: 10px auto 10px auto;
+    box-shadow: 5px 5px 40px 1px hsla(209, 63%, 56%, 0.5);
+    border-radius: 10px;
+	}
+	
+#nav li{
+display:inline-block;
+margin:0px 20px 0px 20px;
+}
+
+ol, p{
+font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+}
+
+ol {
+color:#B0C359;
+font-weight: bold;
+line-height: 160%;
+margin-top:-10px;
+}
+
+#gen, #info, #climb, #setting{
+border-bottom: 3px solid #B0C359;
+box-shadow: 0 4px 4px -3px #797166;
+}
+
+h1{
+color: #BFAE98;
+text-align: center;
+text-shadow: 2px 2px #312515;
+}
+
+h2{
+margin-bottom:10px;
+padding-top:10px;
+color: #BFAE98;
+text-align: center;
+}
+
+h3{
+padding:10px
+}
+h4{
+color: #B0C359;
+padding-left:30px;
+}
+
+p #intro{
+color: #797166;
+}
+
+p{
+padding-left:30px;
+}
+
+ul{
+list-style-type: square;
+text-align: center;
+}
+
+a{
+text-decoration: none;
+}
+
+a:link, a:visited{
+color: #B0C359;
+}
+
+a:hover{
+color: #574F58;
+}
+
+a:active{
+background-color: rgba(190, 173, 151, 0.66);
+border: 2px solid #B0c359;
+border-radius: 5px;
+padding:5px;
+}
+
+figure {
+    margin: 5px;
+    padding: 9px;
+    height: auto;
+    width: auto;
+    float: left;
+}	
+
+figure img {
+    display: inline;
+    margin: 5px;
+    border: 4px solid #B0C359;
+    box-shadow: 3px 4px 4px 1px #797166;
+    
+}
+
+figure a:hover img {
+    border: 4px solid #B0C359;
+    box-shadow: 3px -4px 4px 1px #797166;
+}
+
+figcaption {
+  text-align: center;
+  width: 160px;
+  margin: 5px;
+  font-size:14px;
+}
+
+.credit{
+font-style: italic;
+display: block;
+font-size: 10px;
+}
+
+footer{
+clear:left;
+padding-top:20px;
+}
+
+footer p{
+margin-bottom: 30px;
+}
+
+
