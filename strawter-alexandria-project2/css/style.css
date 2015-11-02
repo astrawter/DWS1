@@ -10,8 +10,8 @@ color: #5A3125;
     height: auto;
     width: 75%;
     border: 5px solid #B0C359;
-    padding: 20px;
-    margin: 10px auto 10px auto;
+    padding: 1%;
+    margin: -.6% 10% -10% 10%;
     box-shadow: 5px 5px 40px 1px hsla(209, 63%, 56%, 0.5);
     border-radius: 10px;
 	}
@@ -19,7 +19,7 @@ color: #5A3125;
 /*navigation*/	
 #nav li{
 	display:inline-block;
-	margin:0px 20px 0px 20px;
+	margin:2% 3% 2% 3%;
 }
 
 ul{
@@ -36,12 +36,16 @@ ol {
 	color:#B0C359;
 	font-weight: bold;
 	line-height: 160%;
-	margin-top:-10px;
+	margin-top:-2%;
 }
 
 /*article borders*/
-#gen, #info, #climb, #setting{
+#gen, #climb, #setting{
 	border-bottom: 3px solid #B0C359;
+	box-shadow: 0 4px 4px -3px #797166;
+}
+#climb{
+	border-top: 3px solid #B0C359;
 	box-shadow: 0 4px 4px -3px #797166;
 }
 /*heading styles*/
@@ -52,29 +56,31 @@ h1{
 }
 
 h2{
-	margin-bottom:10px;
-	padding-top:10px;
+	margin-bottom:1%;
+	padding-top:1%;
 	color: #BFAE98;
 	text-align: center;
 }
 
 h3{
-	padding:1%;
+	padding:.1%;
 }
 h4{
 	color: #B0C359;
-	padding-left:3%;
+	
+	text-align:center;
 }
 /*Columns*/
 .first {
 				float: left;
-				height:auto;
+				height:100%;
 				width: 50%;
-				margin: .1%;}
+				margin: 1%;
+				}
 .second {
 				float: left;
-				height: auto;
-				width: 40%;
+				height: 100%;
+				width:45%;
 				margin: 1%;}
 .reset{
 	clear: left;
@@ -120,7 +126,7 @@ figure a:active{
 figure {
     margin: 1%;
     padding: 1%;
-    height: 100%;
+    height: 20em;
     width: 10em;
     float: left;
 }	
@@ -183,11 +189,11 @@ font-size: 10px;
 /*footer styles*/
 footer{
 clear:left;
-padding-top:20px;
+padding-top:1%;
 }
 
 footer p{
-margin-bottom: 30px;
+margin-bottom: 3%;
 }
 
 
