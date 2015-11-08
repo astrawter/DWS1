@@ -1,9 +1,7 @@
 body{
-	background-image: url(../images/repeatBg.gif);
-	background-repeat: repeat-y;
-	background-position: center;
-	font-family: 'Montserrat', sans-serif;
-	color: #5A3125;
+background-color: hsla(34, 40%, 14%, 0.65);
+font-family: 'Montserrat', sans-serif;
+color: #5A3125;
 }
 /*whole page*/
 
@@ -25,8 +23,8 @@ body{
 }
 
 ul{
-	list-style-type: square;
-	text-align: center;
+list-style-type: square;
+text-align: center;
 }
 /*ordered list and paragraph styling*/
 ol, p{
@@ -42,42 +40,13 @@ ol {
 }
 
 /*article borders*/
-#gen, #climb{
+#gen, #climb, #setting{
 	border-bottom: 3px solid #B0C359;
 	box-shadow: 0 4px 4px -3px #797166;
-}
-#gen {
-	width: 680px;
 }
 #climb{
 	border-top: 3px solid #B0C359;
 	box-shadow: 0 4px 4px -3px #797166;
-}
-
-/* Icon style*/
-#main{
-    background-image: url(../images/mountainIcon.png);
-    background-repeat: no-repeat;
-    background-position: 18% 16%;
-    height: 2em;
-}
- #types{
-    background-image: url(../images/mountainIcon.png);
-    background-repeat: no-repeat;
-    background-position: 10% 17%;
-    height: 2em;
-}
-#enviro{
-    background-image: url(../images/mountainIcon.png);
-    background-repeat: no-repeat;
-    background-position: 34% 18%;
-    height: 2em;
-}
-#techniques{
-    background-image: url(../images/mountainIcon.png);
-    background-repeat: no-repeat;
-    background-position: 29% 16%;
-    height: 2em;
 }
 /*heading styles*/
 h1{
@@ -103,19 +72,18 @@ h4{
 }
 /*Columns*/
 .first {
-	float: left;
-	height:100%;
-	width: 50%;
-	margin: 1%;
-	}
+				float: left;
+				height:100%;
+				width: 50%;
+				margin: 1%;
+				}
 .second {
-	float: right;
-	height: 100%;
-	width:45%;
-	margin: 1%;
-	}
+				float: left;
+				height: 100%;
+				width:45%;
+				margin: 1%;}
 .reset{
-	clear: both;
+	clear: left;
 	}
 /*paragraph styles*/
 
@@ -129,34 +97,26 @@ p{
 
 /*link styles*/
 a{
-	text-decoration: none;
+text-decoration: none;
 }
 
 a:link, a:visited{
-	color: #B0C359;
+color: #B0C359;
 }
 
 a:hover{
-	color: #574F58;
+color: #574F58;
 }
 
 a:active{
-	background-color: rgba(190, 173, 151, 0.66);
-	border: 2px solid #B0c359;
-	border-radius: 5px;
-	padding:1%;
+background-color: rgba(190, 173, 151, 0.66);
+border: 2px solid #B0c359;
+border-radius: 5px;
+padding:1%;
 }
 
 /*gallery styles*/
-#galClear{
-	clear: right;
-}
 
-#galFloatRight{
-	float: right; 
-	margin: 0px 0px 10px 10px; 
-	width: 300px;
-	}
 figure a:active{
 	border:initial;
 	background-color:initial;
@@ -164,16 +124,16 @@ figure a:active{
 }
 
 figure {
-    margin: 1% 1% 0 25%;
+    margin: 1%;
     padding: 1%;
-    height: 18em;
+    height: 20em;
     width: 10em;
     float: left;
 }	
 
 figure img {
     display: inline;
-    margin: 10%;
+    margin: 5%;
     border: 4px solid #B0C359;
     box-shadow: 3px 4px 4px 1px #797166;
     
@@ -192,13 +152,14 @@ figcaption {
 }
 
 .credit{
-	font-style: italic;
-	display: block;
-	font-size: .5em;
+font-style: italic;
+display: block;
+font-size: 10px;
 }
 /** Lightbox code Written by Gregory Schier http://schier.co/blog/2013/11/16/creating-pure-css-lightboxes-with-the-target-selector.html*/
 .lightbox {
 	display: none;
+
 	/** Position and style */
 	position: fixed;
 	z-index: 999;
@@ -208,7 +169,7 @@ figcaption {
 	top: 0;
 	left: 0;
 	background: rgba(0,0,0,0.8);
-	}
+}
 
 .lightbox img {
 	
@@ -227,31 +188,11 @@ figcaption {
 
 /*footer styles*/
 footer{
-	clear:left;
-	padding-top:.7%;
+clear:left;
+padding-top:1%;
 }
 
 footer p{
-	margin-bottom: 3%;
-	background-repeat: no-repeat;
-	background-position: center;
-	border-radius: 5px;
-	width: 64%;
-    margin: 0 0 5% 18%;
-	text-align: center;
-	/*  Gradient ---- Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bfae98+0,b0c359+98 */
-	background: #bfae98; /* Old browsers */
-	background: -moz-linear-gradient(-45deg,  #bfae98 0%, #b0c359 98%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#bfae98), color-stop(98%,#b0c359)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(-45deg,  #bfae98 0%,#b0c359 98%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(-45deg,  #bfae98 0%,#b0c359 98%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(-45deg,  #bfae98 0%,#b0c359 98%); /* IE10+ */
-	background: linear-gradient(135deg,  #bfae98 0%,#b0c359 98%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfae98', endColorstr='#b0c359',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-}
-
-#wiki a{
-	color: #4A92D6;
+margin-bottom: 3%;
 }
 
