@@ -1,14 +1,14 @@
 body{
-background-color: hsla(34, 40%, 14%, 0.65);
-font-family: 'Montserrat', sans-serif;
-color: #5A3125;
+	background-color: hsla(34, 40%, 14%, 0.65);
+	font-family: 'Montserrat', sans-serif;
+	color: #5A3125;
 }
 /*whole page*/
 
 #page{
 	background-color: hsla(209, 63%, 56%, 0.78);
     height: auto;
-    width: 75%;
+        width: 82%;
     border: 5px solid #B0C359;
     padding: 1%;
     margin: -.6% 10% -10% 10%;
@@ -23,8 +23,8 @@ color: #5A3125;
 }
 
 ul{
-list-style-type: square;
-text-align: center;
+	list-style-type: square;
+	text-align: center;
 }
 /*ordered list and paragraph styling*/
 ol, p{
@@ -72,16 +72,17 @@ h4{
 }
 /*Columns*/
 .first {
-				float: left;
-				height:100%;
-				width: 50%;
-				margin: 1%;
-				}
+	float: left;
+	height:100%;
+	width: 50%;
+	margin: 1%;
+	}
 .second {
-				float: left;
-				height: 100%;
-				width:45%;
-				margin: 1%;}
+	float: left;
+	height: 100%;
+	width:45%;
+	margin: 1%;
+	}
 .reset{
 	clear: left;
 	}
@@ -97,23 +98,23 @@ p{
 
 /*link styles*/
 a{
-text-decoration: none;
+	text-decoration: none;
 }
 
-a:link, a:visited{
-color: #B0C359;
+	a:link, a:visited{
+	color: #B0C359;
 }
 
 a:hover{
-color: #574F58;
+	color: #574F58;
 }
 
 a:active{
-background-color: rgba(190, 173, 151, 0.66);
-border: 2px solid #B0c359;
-border-radius: 5px;
-padding:1%;
-}
+	background-color: rgba(190, 173, 151, 0.66);
+	border: 2px solid #B0c359;
+	border-radius: 5px;
+	padding:1%;
+	}
 
 /*gallery styles*/
 
@@ -152,10 +153,10 @@ figcaption {
 }
 
 .credit{
-font-style: italic;
-display: block;
-font-size: 10px;
-}
+	font-style: italic;
+	display: block;
+	font-size: 10px;
+	}
 /** Lightbox code Written by Gregory Schier http://schier.co/blog/2013/11/16/creating-pure-css-lightboxes-with-the-target-selector.html*/
 .lightbox {
 	display: none;
@@ -188,11 +189,11 @@ font-size: 10px;
 
 /*footer styles*/
 footer{
-clear:left;
-padding-top:1%;
-}
+	clear:left;
+	padding-top:1%;
+	}
 
 footer p{
-margin-bottom: 3%;
+	margin-bottom: 3%;
 }
 
