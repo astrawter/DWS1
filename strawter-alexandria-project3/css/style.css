@@ -1,6 +1,6 @@
 body{
 	background-image: url(../images/repeatBg.gif);
-	background-repeat: repeat-y;
+	background-repeat: repeat;
 	background-position: center;
 	font-family: 'Montserrat', sans-serif;
 	color: #5A3125;
