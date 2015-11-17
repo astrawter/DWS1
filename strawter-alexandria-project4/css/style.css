@@ -17,7 +17,9 @@ body{
     margin: -.6% 10% -10% 10%;
     box-shadow: 5px 5px 40px 1px hsla(209, 63%, 56%, 0.5);
     border-radius: 10px;
+    overflow: auto;
 	}
+	
 	
 /*navigation*/	
 #nav li{
@@ -46,10 +48,14 @@ ol {
 #gen, #climb{
 	border-bottom: 3px solid #B0C359;
 	box-shadow: 0 4px 4px -3px #797166;
+
+   
 }
-#gen {
-	width: 680px;
-}
+#gen, #float_left{
+    float: left;
+    width: 69%;
+    }
+
 #climb{
 	border-top: 3px solid #B0C359;
 	box-shadow: 0 4px 4px -3px #797166;
@@ -155,9 +161,10 @@ a:active{
 
 #galFloatRight{
 	float: right; 
-	margin: 0px 0px 10px 10px; 
-	width: 300px;
+	width: 30%;
+    margin-top: 2%;
 	}
+
 figure a:active{
 	border:initial;
 	background-color:initial;
@@ -188,8 +195,8 @@ figure a:hover img {
 figcaption {
   text-align: center;
   width: 12em;
-  margin: 5px;
-  font-size:14px;
+  margin: 1%;
+  font-size: 0.875em;
 }
 
 .credit{
@@ -276,7 +283,11 @@ td:hover{
     text-align: center; 
 }
 th{
-    text-align:center;
+    font-size: 1.375em;
+    margin-bottom:1%;
+	padding-top:1%;
+	color: #BFAE98;
+	text-align: center;
     }
 
 #inBorder{
@@ -286,7 +297,7 @@ th{
 td h3{
     text-align:center;
     text-transform:uppercase;
-    letter-spacing:2px;
+    letter-spacing:.3em;
     }
 
 td p{
@@ -295,8 +306,14 @@ td p{
 
 /* Search form style*/
 #search{
-
+    float:right;
     }
+
+#searchbtn{
+     background-color: #B0C359;
+    border-radius: 5px;
+    }
+
 /* Contact form style*/
 legend{
     color:#5A3125;
@@ -305,7 +322,7 @@ legend{
     }
 
 fieldset{
-    margin: 20px auto;
+    margin: 5% auto;
     border: 2px dashed #B0c359;
     width: 50%;
     }
@@ -317,7 +334,7 @@ fieldset:hover{
 
 input, textarea{
     color: #4891d5;
-    padding: 5px;
+    padding: 1%;
     }
 
 input:focus{
@@ -330,30 +347,22 @@ textarea:focus{
 
 .title{
     float: left;
-    width: 230px;
+    width: 46%;
     clear: left;
     text-align: right;
-    margin-right: 10px;
+    margin-right: 7%;
     }
-
-
 
 p #how{
-    margin-left: 30px;
-    margin-right: 45px;
+    margin-left: 3%;
+    margin-right: 17%;
     }
+
 #contactbtn{
         background-color: #B0C359;
     border-radius: 5px;
     }
-#search{
-    float:right;
-    }
-#searchbtn{
-     background-color: #B0C359;
-    border-radius: 5px;
-    }
 
 p #contactbtn{
-    margin-left: 295px;
+    margin-left: 66%;
     }
